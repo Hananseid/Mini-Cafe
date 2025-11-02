@@ -1,0 +1,102 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.2)), url(./image/cafe.png);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.icon {
+  margin: 20px;
+  width: 50px;
+  height: 100px;
+
+}
+
+a {
+  margin-right: 40px;
+  font-size: 22px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  font-family: cardo;
+
+}
+
+a:hover {
+  color: rgb(65, 60, 60);
+
+
+}
+
+p {
+  font-family: cardo;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  width: 80%;
+  height: 100vh;
+  gap: 0;
+}
+
+.log1 {
+  background-color: rgba(24, 14, 49, 0.5);
+  width: 520px;
+  height: 500px;
+  border-radius: 30px;
+
+}
+
+.btn {
+  color: black;
+  background-color: rgb(204, 196, 206);
+  text-align: center;
+  margin: 15%;
+  position: absolute;
+  top: 170px;
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  background-color: rgb(138, 138, 130);
+  color: white;
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+
+.log2 {
+  background-color: rgba(138, 96, 120, 0.7);
+  width: 535px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.form {
+  margin: 13%;
+
+}
+
+input {
+  font-size: 18px;
+  margin: 10px;
+
+}
+
+label[for] {
+  font-size: 17px;
+  font-weight: bold;
+}
